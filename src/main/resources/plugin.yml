@@ -1,0 +1,4 @@
+name: BetterTraders
+version: '${project.version}'
+main: ezcoins.bettertraders.BetterTraders
+api-version: '1.20'
