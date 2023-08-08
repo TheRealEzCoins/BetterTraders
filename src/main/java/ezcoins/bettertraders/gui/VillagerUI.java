@@ -7,6 +7,7 @@ import ezcoins.bettertraders.Utils;
 import ezcoins.bettertraders.configs.DefaultConfig;
 import ezcoins.bettertraders.configs.TraderConfig;
 import ezcoins.bettertraders.enums.TradeType;
+import ezcoins.bettertraders.trades.CustomTrade;
 import ezcoins.bettertraders.trades.DefaultTrade;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
