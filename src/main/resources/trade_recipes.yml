@@ -1,0 +1,10 @@
+trade1:
+  itemToBeSold: STICK
+  stackSize: 1
+  maxAmount: 3
+  cost: 10
+trade2:
+  itemToBeSold: STONE
+  stackSize: 16
+  maxAmount: 5
+  cost: 5

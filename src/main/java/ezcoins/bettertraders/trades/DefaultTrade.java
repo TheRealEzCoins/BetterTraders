@@ -1,5 +1,6 @@
-package ezcoins.bettertraders;
+package ezcoins.bettertraders.trades;
 
+import ezcoins.bettertraders.Utils;
 import org.bukkit.DyeColor;
 import org.bukkit.Material;
 import org.bukkit.Tag;
@@ -7,7 +8,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.MerchantRecipe;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 public class DefaultTrade {

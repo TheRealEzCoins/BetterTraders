@@ -1,0 +1,5 @@
+# Amount of trades in a wandering trader
+Trade-amount:
+  Rare: 1
+  Default: 5
+  Custom: 2
