@@ -1,10 +1,41 @@
 trade1:
-  itemToBeSold: STICK
+  itemToBeSold: SEA_LANTERN
   stackSize: 1
-  maxAmount: 3
-  cost: 10
+  maxAmount: 128
+  cost: 3
+
 trade2:
-  itemToBeSold: STONE
-  stackSize: 16
+  itemToBeSold: OCHRE_FROGLIGHT
+  stackSize: 1
+  maxAmount: 128
+  cost: 3
+
+trade3:
+  itemToBeSold: VERDANT_FROGLIGHT
+  stackSize: 1
+  maxAmount: 128
+  cost: 3
+
+trade4:
+  itemToBeSold: PEARLESCENT_FROGLIGHT
+  stackSize: 1
+  maxAmount: 128
+  cost: 3
+
+trade5:
+  itemToBeSold: POWDER_SNOW_BUCKET
+  stackSize: 1
+  maxAmount: 5
+  cost: 5
+
+trade6:
+  itemToBeSold: MAGMA_BLOCK
+  stackSize: 1
+  maxAmount: 5
+  cost: 5
+
+trade7:
+  itemToBeSold: GLOW_INK_SAC
+  stackSize: 4
   maxAmount: 5
   cost: 5

@@ -30,6 +30,16 @@ public class Utils {
         return dyeItem;
     }
 
+    public static <T> List<T> getInstancesOfInterface(List<Object> objects, Class<T> targetInterface) {
+        List<T> instances = new ArrayList<>();
+        for (Object obj : objects) {
+            if (targetInterface.isInstance(obj)) {
+                instances.add(targetInterface.cast(obj));
+            }
+        }
+        return instances;
+    }
+
     public static List<MerchantRecipe> selectRandomTrades(List<MerchantRecipe> originalList, int numberOfItems) {
         List<MerchantRecipe> selectedItems = new ArrayList<>();
         Random random = new Random();
